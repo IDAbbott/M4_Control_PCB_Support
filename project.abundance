@@ -111,8 +111,8 @@
         {
           "atomType": "Assembly",
           "name": "Assembly",
-          "x": 0.5664335664335665,
-          "y": 0.46808510638297873,
+          "x": 0.5681818181818182,
+          "y": 0.44893617021276594,
           "uniqueID": "7332dcb5-d90d-478f-aea1-2ef471b70c6c",
           "ioValues": [
             {
@@ -226,7 +226,7 @@
             {
               "name": "Shape 6",
               "ioValue": {
-                "geometry": "move-73ea1c926b695cd27e9a13912b66fb45f472ffddf867c8d4ca98707553088ae1",
+                "geometry": "move-739371fce9f31636a3241ee50ad27c65df84ed99f1e263d550ee0bec7d27c914",
                 "tags": [],
                 "color": "#aad7f2",
                 "bom": [],
@@ -316,11 +316,13 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": -4,
+              "currentEquation": "-4"
             },
             {
               "name": "zDist",
-              "ioValue": 0
+              "ioValue": 2,
+              "currentEquation": "2"
             }
           ]
         },
@@ -405,8 +407,8 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 94,
-              "currentEquation": "94"
+              "ioValue": 88,
+              "currentEquation": "88"
             }
           ]
         }

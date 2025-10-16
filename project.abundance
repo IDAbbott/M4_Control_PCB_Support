@@ -2240,12 +2240,13 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 105,
-              "currentEquation": "100+(10/2)"
+              "ioValue": 110,
+              "currentEquation": "110"
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "zDist",

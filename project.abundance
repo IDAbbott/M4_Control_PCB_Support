@@ -521,8 +521,8 @@
     {
       "atomType": "Molecule",
       "name": "VacantSpace",
-      "x": 0.18181818181818182,
-      "y": 0.5531914893617021,
+      "x": 0.17744755244755245,
+      "y": 0.548936170212766,
       "uniqueID": "cea5a6af-e585-45f4-a6f1-5359cc6fbd7d",
       "ioValues": [],
       "topLevel": false,
@@ -607,13 +607,11 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 28,
-              "currentEquation": "28"
+              "ioValue": 28
             },
             {
               "name": "y length",
-              "ioValue": 28,
-              "currentEquation": "28"
+              "ioValue": 28
             }
           ]
         },

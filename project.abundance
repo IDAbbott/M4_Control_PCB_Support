@@ -1644,6 +1644,294 @@
       ],
       "fileTypeVersion": 1,
       "compiledBom": []
+    },
+    {
+      "atomType": "Molecule",
+      "name": "Molecule",
+      "x": 0.19143356643356643,
+      "y": 0.2574468085106383,
+      "uniqueID": "5e0a1c3a-cb58-476e-b6dd-e430e4bf2d17",
+      "ioValues": [],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "name": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "c465d6ff-c341-4db8-95bb-53eeca668627",
+          "ioValues": []
+        },
+        {
+          "atomType": "Circle",
+          "name": "Circle",
+          "x": 0.11101398601398602,
+          "y": 0.2297872340425532,
+          "uniqueID": "06811b93-3ab7-4ab3-a491-f43db5cac672",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 36
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "name": "Extrude",
+          "x": 0.25,
+          "y": 0.2170212765957447,
+          "uniqueID": "40d01aa7-e0ee-47d3-abce-22eee9fc2438",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 5
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "name": "Move",
+          "x": 0.44842657342657344,
+          "y": 0.44255319148936173,
+          "uniqueID": "9956de6a-1849-4c9f-a97d-7453a88c2153",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "name": "Move",
+          "x": 0.4370629370629371,
+          "y": 0.2574468085106383,
+          "uniqueID": "64615635-eae1-4a13-9af1-52808faad2be",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 199
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "name": "Assembly",
+          "x": 0.5664335664335665,
+          "y": 0.4765957446808511,
+          "uniqueID": "7332dcb5-d90d-478f-aea1-2ef471b70c6c",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": {
+                "geometry": "move-7a721fc0329cd1f65e420c22ed90a194af121580ad45ef4841d885185b582dd0",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": {
+                "geometry": "move-24ecf07188e3ed570bc1a34f1939638dd7d9e85aece4c899508c2208a91760e5",
+                "dimension": "3D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": {
+                "geometry": "extrude-d8d9cfc9130a7b7eb3343a830aa9d6af8fcf0fd4d528454731a05c4ea34c46a3",
+                "dimension": "3D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": []
+              }
+            }
+          ]
+        },
+        {
+          "atomType": "Rectangle",
+          "name": "Rectangle",
+          "x": 0.12325174825174826,
+          "y": 0.5595744680851064,
+          "uniqueID": "5ac58ba9-525e-446c-a85a-5d02c9bcc55b",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 200,
+              "currentEquation": "200"
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "name": "Extrude",
+          "x": 0.34440559440559443,
+          "y": 0.574468085106383,
+          "uniqueID": "b3491126-346a-4fdb-be13-6309db86dcf2",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 5
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "name": "Move",
+          "x": 0.22325174825174826,
+          "y": 0.5595744680851064,
+          "uniqueID": "2d2832e9-da22-40f1-a9ce-71cc2d2b9ad2",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 100,
+              "currentEquation": "100"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "geometry",
+          "ap1ID": "06811b93-3ab7-4ab3-a491-f43db5cac672",
+          "ap2ID": "40d01aa7-e0ee-47d3-abce-22eee9fc2438"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "geometry",
+          "ap1ID": "40d01aa7-e0ee-47d3-abce-22eee9fc2438",
+          "ap2ID": "9956de6a-1849-4c9f-a97d-7453a88c2153"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "geometry",
+          "ap1ID": "40d01aa7-e0ee-47d3-abce-22eee9fc2438",
+          "ap2ID": "64615635-eae1-4a13-9af1-52808faad2be"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "Shape 2",
+          "ap1ID": "9956de6a-1849-4c9f-a97d-7453a88c2153",
+          "ap2ID": "7332dcb5-d90d-478f-aea1-2ef471b70c6c"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "Shape 1",
+          "ap1ID": "64615635-eae1-4a13-9af1-52808faad2be",
+          "ap2ID": "7332dcb5-d90d-478f-aea1-2ef471b70c6c"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "number or geometry",
+          "ap1ID": "7332dcb5-d90d-478f-aea1-2ef471b70c6c",
+          "ap2ID": "c465d6ff-c341-4db8-95bb-53eeca668627"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "geometry",
+          "ap1ID": "5ac58ba9-525e-446c-a85a-5d02c9bcc55b",
+          "ap2ID": "2d2832e9-da22-40f1-a9ce-71cc2d2b9ad2"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "Shape 3",
+          "ap1ID": "b3491126-346a-4fdb-be13-6309db86dcf2",
+          "ap2ID": "7332dcb5-d90d-478f-aea1-2ef471b70c6c"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "geometry",
+          "ap1ID": "2d2832e9-da22-40f1-a9ce-71cc2d2b9ad2",
+          "ap2ID": "b3491126-346a-4fdb-be13-6309db86dcf2"
+        }
+      ],
+      "fileTypeVersion": 1,
+      "compiledBom": []
     }
   ],
   "allConnectors": [],

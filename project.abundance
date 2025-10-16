@@ -24,6 +24,31 @@
       "ioValues": []
     },
     {
+      "atomType": "Export",
+      "name": "Export",
+      "x": 0.5148601398601399,
+      "y": 0.5765957446808511,
+      "uniqueID": "a3222a6e-7bae-40c0-bd24-821b96f6efe8",
+      "ioValues": [
+        {
+          "name": "File Type",
+          "ioValue": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "M4_Control_PCB_Support"
+        }
+      ],
+      "type": "STEP",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "M4_Control_PCB_Support"
+    },
+    {
       "atomType": "Molecule",
       "name": "PCB Board Holder",
       "x": 0.19143356643356643,
@@ -215,8 +240,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 84,
-              "currentEquation": "84"
+              "ioValue": 84
             }
           ]
         },
@@ -233,8 +257,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -4.5,
-              "currentEquation": "-4.5"
+              "ioValue": -4.5
             },
             {
               "name": "zDist",
@@ -3173,31 +3196,6 @@
       ],
       "fileTypeVersion": 1,
       "compiledBom": []
-    },
-    {
-      "atomType": "Export",
-      "name": "Export",
-      "x": 0.5148601398601399,
-      "y": 0.5765957446808511,
-      "uniqueID": "a3222a6e-7bae-40c0-bd24-821b96f6efe8",
-      "ioValues": [
-        {
-          "name": "File Type",
-          "ioValue": "STEP"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "M4_Control_PCB_Support"
-        }
-      ],
-      "type": "STEP",
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "M4_Control_PCB_Support"
     }
   ],
   "allConnectors": [

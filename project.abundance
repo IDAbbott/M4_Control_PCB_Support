@@ -3047,30 +3047,7 @@
             },
             {
               "name": "Shape 6",
-              "ioValue": {
-                "geometry": "move-ee0389e6da70708c4c016e7c82bc2541ea7ed89d392c51bf138489d20895ba34",
-                "dimension": "3D",
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": []
-              }
+              "ioValue": null
             }
           ]
         },
@@ -3155,23 +3132,24 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.4554195804195804,
-          "y": 0.9063829787234043,
+          "x": 0.44842657342657344,
+          "y": 0.9021276595744682,
           "uniqueID": "fdd825a3-58ee-4519-a587-00c5e938977a",
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 115,
-              "currentEquation": "115"
+              "ioValue": 125,
+              "currentEquation": "125"
             },
             {
               "name": "yDist",
-              "ioValue": -16,
-              "currentEquation": "-16"
+              "ioValue": -13,
+              "currentEquation": "-13"
             },
             {
               "name": "zDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             }
           ]
         },
@@ -3193,8 +3171,8 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 56,
-              "currentEquation": "56"
+              "ioValue": 54,
+              "currentEquation": "54"
             }
           ]
         }

@@ -521,8 +521,8 @@
     {
       "atomType": "Molecule",
       "name": "VacantSpace",
-      "x": 0.1896853146853147,
-      "y": 0.5468085106382979,
+      "x": 0.18181818181818182,
+      "y": 0.5531914893617021,
       "uniqueID": "cea5a6af-e585-45f4-a6f1-5359cc6fbd7d",
       "ioValues": [],
       "topLevel": false,
@@ -607,11 +607,13 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 22
+              "ioValue": 28,
+              "currentEquation": "28"
             },
             {
               "name": "y length",
-              "ioValue": 22
+              "ioValue": 28,
+              "currentEquation": "28"
             }
           ]
         },
@@ -1148,7 +1150,7 @@
             {
               "name": "Shape 5",
               "ioValue": {
-                "geometry": "move-8e2d1b0781266edefb3be891b9b0ad9bacfb7455f611a788797c04975122647d",
+                "geometry": "move-cb0be0a5dc9fcc652c3de660bbf4f16f5c66cfac311ccb98f28d41628feda1c2",
                 "dimension": "3D",
                 "plane": {
                   "origin": [

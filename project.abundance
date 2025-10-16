@@ -27,7 +27,7 @@
       "atomType": "Molecule",
       "name": "PCB Board Holder",
       "x": 0.19143356643356643,
-      "y": 0.2574468085106383,
+      "y": 0.2765957446808511,
       "uniqueID": "5e0a1c3a-cb58-476e-b6dd-e430e4bf2d17",
       "ioValues": [],
       "topLevel": false,
@@ -69,8 +69,8 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.44842657342657344,
-          "y": 0.44255319148936173,
+          "x": 0.4458041958041958,
+          "y": 0.3702127659574468,
           "uniqueID": "9956de6a-1849-4c9f-a97d-7453a88c2153",
           "ioValues": [
             {
@@ -197,33 +197,6 @@
               }
             },
             {
-              "name": "Shape 4",
-              "ioValue": {
-                "geometry": "extrude-4abb54977ae85998605e3e7e14ab756086445c7a747167715bb6c456548bcdbc",
-                "dimension": "3D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
-            },
-            {
               "name": "Shape 5",
               "ioValue": {
                 "geometry": "extrude-9f010890347e4014009ea5ee863460e2ee3deff7b38335f0c516b3b7577522ba",
@@ -248,6 +221,33 @@
                 "color": "#aad7f2",
                 "tags": [],
                 "bom": []
+              }
+            },
+            {
+              "name": "Shape 6",
+              "ioValue": {
+                "geometry": "move-73ea1c926b695cd27e9a13912b66fb45f472ffddf867c8d4ca98707553088ae1",
+                "tags": [],
+                "color": "#aad7f2",
+                "bom": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "dimension": "3D"
               }
             }
           ]
@@ -304,24 +304,10 @@
           ]
         },
         {
-          "atomType": "Circle",
-          "name": "Circle",
-          "x": 0.11451048951048952,
-          "y": 0.7,
-          "uniqueID": "5a0833d0-bb9f-4939-9276-85d7f61d16e3",
-          "ioValues": [
-            {
-              "name": "diameter",
-              "ioValue": 50,
-              "currentEquation": "50"
-            }
-          ]
-        },
-        {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.21241258741258742,
-          "y": 0.7106382978723403,
+          "x": 0.3304195804195804,
+          "y": 0.43617021276595747,
           "uniqueID": "32bb4ea1-6719-4163-b769-415ef28e6f91",
           "ioValues": [
             {
@@ -335,19 +321,6 @@
             {
               "name": "zDist",
               "ioValue": 0
-            }
-          ]
-        },
-        {
-          "atomType": "Extrude",
-          "name": "Extrude",
-          "x": 0.3330419580419581,
-          "y": 0.7170212765957447,
-          "uniqueID": "dae6cd98-0541-4d4f-8113-d6fbf7c0c1bf",
-          "ioValues": [
-            {
-              "name": "height",
-              "ioValue": 5
             }
           ]
         },
@@ -399,6 +372,41 @@
             {
               "name": "height",
               "ioValue": 5
+            }
+          ]
+        },
+        {
+          "atomType": "Import",
+          "name": "Import",
+          "x": 0.11188811188811189,
+          "y": 0.37872340425531914,
+          "uniqueID": "919aed01-6a16-48c1-b0c4-44694ba80eed",
+          "ioValues": [],
+          "fileName": "m4TopPlateNew.stl",
+          "type": "STL",
+          "repoOwner": "IDAbbott",
+          "repoName": "M4_Control_PCB_Support"
+        },
+        {
+          "atomType": "Rotate",
+          "name": "Rotate",
+          "x": 0.22377622377622378,
+          "y": 0.35531914893617017,
+          "uniqueID": "003352cf-5fd3-43f5-8eb2-f64304f3f98e",
+          "ioValues": [
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 94,
+              "currentEquation": "94"
             }
           ]
         }
@@ -460,20 +468,8 @@
         },
         {
           "ap1Name": "geometry",
-          "ap2Name": "geometry",
-          "ap1ID": "5a0833d0-bb9f-4939-9276-85d7f61d16e3",
-          "ap2ID": "32bb4ea1-6719-4163-b769-415ef28e6f91"
-        },
-        {
-          "ap1Name": "geometry",
-          "ap2Name": "geometry",
+          "ap2Name": "Shape 6",
           "ap1ID": "32bb4ea1-6719-4163-b769-415ef28e6f91",
-          "ap2ID": "dae6cd98-0541-4d4f-8113-d6fbf7c0c1bf"
-        },
-        {
-          "ap1Name": "geometry",
-          "ap2Name": "Shape 4",
-          "ap1ID": "dae6cd98-0541-4d4f-8113-d6fbf7c0c1bf",
           "ap2ID": "7332dcb5-d90d-478f-aea1-2ef471b70c6c"
         },
         {
@@ -493,6 +489,18 @@
           "ap2Name": "Shape 5",
           "ap1ID": "53ce7489-86fd-484f-97f6-ee13467392d2",
           "ap2ID": "7332dcb5-d90d-478f-aea1-2ef471b70c6c"
+        },
+        {
+          "ap1Name": "output",
+          "ap2Name": "geometry",
+          "ap1ID": "919aed01-6a16-48c1-b0c4-44694ba80eed",
+          "ap2ID": "003352cf-5fd3-43f5-8eb2-f64304f3f98e"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "geometry",
+          "ap1ID": "003352cf-5fd3-43f5-8eb2-f64304f3f98e",
+          "ap2ID": "32bb4ea1-6719-4163-b769-415ef28e6f91"
         }
       ],
       "fileTypeVersion": 1,

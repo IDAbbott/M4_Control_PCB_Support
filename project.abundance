@@ -2274,6 +2274,18 @@
               "ioValue": 0
             }
           ]
+        },
+        {
+          "atomType": "Import",
+          "name": "Import",
+          "x": 0.5358391608391608,
+          "y": 0.778723404255319,
+          "uniqueID": "472fae58-cfed-4d8b-a85c-968a9e6cf2a1",
+          "ioValues": [],
+          "fileName": "m4TopPlateNew.stl",
+          "type": "STL",
+          "repoOwner": "IDAbbott",
+          "repoName": "M4_Control_PCB_Support"
         }
       ],
       "allConnectors": [

@@ -66,8 +66,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.19143356643356643,
-      "y": 0.2765957446808511,
+      "x": 0.19003378378378377,
+      "y": 0.25949367088607594,
       "uniqueID": "5e0a1c3a-cb58-476e-b6dd-e430e4bf2d17",
       "name": "PCB Board Holder",
       "topLevel": false,
@@ -342,10 +342,6 @@
             {
               "name": "Shape 4",
               "ioValue": null
-            },
-            {
-              "name": "Shape 5",
-              "ioValue": null
             }
           ]
         }
@@ -400,11 +396,6 @@
           "ap2Name": "geometry",
           "ap1ID": "2775bece-2c98-4961-809a-f23aa19ced82",
           "ap2ID": "d6830aa1-cc54-44bf-bcfc-98dc9510f6d8"
-        },
-        {
-          "ap2Name": "Shape 5",
-          "ap1ID": "d6830aa1-cc54-44bf-bcfc-98dc9510f6d8",
-          "ap2ID": "303560d9-6e0d-4107-8a34-8dc1be3649b4"
         },
         {
           "ap2Name": "geometry",

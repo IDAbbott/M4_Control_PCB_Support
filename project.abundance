@@ -65,6 +65,30 @@
       "partName": "M4_Control_PCB_Support"
     },
     {
+      "atomType": "Rotate",
+      "x": 0.5219594594594595,
+      "y": 0.41139240506329117,
+      "uniqueID": "id-210",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 180
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
       "atomType": "Molecule",
       "x": 0.19003378378378377,
       "y": 0.25949367088607594,
@@ -264,8 +288,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             }
           ]
         },
@@ -740,8 +763,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
@@ -1785,31 +1807,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.5219594594594595,
-      "y": 0.41139240506329117,
-      "uniqueID": "id-210",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "x-axis degrees",
-          "ioValue": 180
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 0
-        }
-      ]
     }
   ],
   "allConnectors": [
@@ -1817,16 +1814,6 @@
       "ap2Name": "geometry",
       "ap1ID": "d69be096-5851-440e-9dda-a28d489043a2",
       "ap2ID": "id-210"
-    },
-    {
-      "ap2Name": "geometry1",
-      "ap1ID": "5e0a1c3a-cb58-476e-b6dd-e430e4bf2d17",
-      "ap2ID": "d69be096-5851-440e-9dda-a28d489043a2"
-    },
-    {
-      "ap2Name": "geometry2",
-      "ap1ID": "cea5a6af-e585-45f4-a6f1-5359cc6fbd7d",
-      "ap2ID": "d69be096-5851-440e-9dda-a28d489043a2"
     },
     {
       "ap2Name": "geometry",
@@ -1837,6 +1824,16 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-210",
       "ap2ID": "23c28799-e3b5-4127-9f83-78b02e9d9564"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "5e0a1c3a-cb58-476e-b6dd-e430e4bf2d17",
+      "ap2ID": "d69be096-5851-440e-9dda-a28d489043a2"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "cea5a6af-e585-45f4-a6f1-5359cc6fbd7d",
+      "ap2ID": "d69be096-5851-440e-9dda-a28d489043a2"
     }
   ],
   "unitsKey": "MM",

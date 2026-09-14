@@ -2,7 +2,7 @@
 
 # M4_Control_PCB_Support
 
-![](/project.svg)
+![](/project.png)
 
 
 

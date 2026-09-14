@@ -508,7 +508,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 0
+              "ioValue": -40
             }
           ]
         },
@@ -1807,7 +1807,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 0
+              "ioValue": -40
             }
           ]
         },
@@ -1831,7 +1831,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": -4
+              "ioValue": -1
             }
           ]
         }
@@ -1939,6 +1939,22 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.4,
+      "y": 0.6,
+      "uniqueID": "id-424",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -1963,9 +1979,19 @@
       "ap2ID": "d69be096-5851-440e-9dda-a28d489043a2"
     },
     {
+      "ap2Name": "Shape 1",
+      "ap1ID": "5e0a1c3a-cb58-476e-b6dd-e430e4bf2d17",
+      "ap2ID": "id-424"
+    },
+    {
       "ap2Name": "remove",
       "ap1ID": "cea5a6af-e585-45f4-a6f1-5359cc6fbd7d",
       "ap2ID": "d69be096-5851-440e-9dda-a28d489043a2"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "cea5a6af-e585-45f4-a6f1-5359cc6fbd7d",
+      "ap2ID": "id-424"
     }
   ],
   "unitsKey": "MM",

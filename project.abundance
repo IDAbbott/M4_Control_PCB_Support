@@ -423,7 +423,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": 64.5
+              "ioValue": 64.5,
+              "currentEquation": "64.5"
             },
             {
               "name": "yDist",
@@ -432,7 +433,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": -40
+              "ioValue": -2
             }
           ]
         },
@@ -508,7 +509,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": -40
+              "ioValue": -2
             }
           ]
         },
@@ -568,7 +569,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 8
+                  "ioValue": 0
                 }
               ]
             },
@@ -712,7 +713,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 3
+                  "ioValue": 5
                 }
               ]
             },
@@ -744,7 +745,7 @@
                       "origin": [
                         0,
                         0,
-                        8
+                        0
                       ],
                       "xDir": [
                         1,
@@ -771,7 +772,7 @@
                       "origin": [
                         0,
                         0,
-                        3
+                        5
                       ],
                       "xDir": [
                         1,
@@ -2429,7 +2430,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": -40
+              "ioValue": -2
             }
           ]
         },

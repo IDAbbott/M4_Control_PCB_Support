@@ -190,7 +190,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 0
+              "ioValue": -3
             }
           ]
         },
@@ -206,7 +206,7 @@
             },
             {
               "name": "height",
-              "ioValue": 5
+              "ioValue": 8
             }
           ]
         },
@@ -2453,7 +2453,8 @@
             },
             {
               "name": "zDist",
-              "ioValue": 3
+              "ioValue": 4,
+              "currentEquation": "4"
             }
           ]
         }

@@ -246,7 +246,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 15
+              "ioValue": 45
             }
           ]
         },
@@ -290,8 +290,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 45,
-              "currentEquation": "45"
+              "ioValue": 30
             },
             {
               "name": "yDist",
@@ -311,7 +310,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 30
+              "ioValue": 60
             }
           ]
         },
@@ -343,11 +342,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": 45
+              "ioValue": 30
             },
             {
               "name": "yDist",
-              "ioValue": 6
+              "ioValue": 6,
+              "currentEquation": "6"
             },
             {
               "name": "zDist",
@@ -379,11 +379,11 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 40
+              "ioValue": 70
             },
             {
               "name": "y length",
-              "ioValue": 10
+              "ioValue": 20
             }
           ]
         },
@@ -415,11 +415,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": 45
+              "ioValue": 30,
+              "currentEquation": "30"
             },
             {
               "name": "yDist",
-              "ioValue": -6
+              "ioValue": -15
             },
             {
               "name": "zDist",

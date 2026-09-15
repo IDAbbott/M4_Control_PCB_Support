@@ -817,7 +817,7 @@
                 },
                 {
                   "name": "diameter",
-                  "ioValue": 6.8
+                  "ioValue": 6.2
                 }
               ]
             },
@@ -853,7 +853,8 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0
+                  "ioValue": 4,
+                  "currentEquation": "4"
                 }
               ]
             },
@@ -892,7 +893,7 @@
                   "ioValue": null
                 },
                 {
-                  "name": "Shape 2",
+                  "name": "Shape 3",
                   "ioValue": null
                 }
               ]
@@ -973,7 +974,7 @@
                 },
                 {
                   "name": "diameter",
-                  "ioValue": 6.5
+                  "ioValue": 6.8
                 }
               ]
             },
@@ -997,15 +998,15 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 5
+                  "ioValue": 0
                 }
               ]
             },
             {
               "atomType": "Loft",
               "x": 0.3,
-              "y": 0.5,
-              "uniqueID": "id-465",
+              "y": 0.6,
+              "uniqueID": "id-532",
               "ioValues": [
                 {
                   "name": "Shape 1",
@@ -1022,14 +1023,14 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "move-polysides-3.4-6-0-0-0",
+                    "geometry": "move-polysides-3.1-6-0-0-0",
                     "dimension": "2D",
                     "tags": [],
                     "plane": {
                       "origin": [
                         0,
                         0,
-                        0
+                        4
                       ],
                       "xDir": [
                         1,
@@ -1049,14 +1050,14 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "move-polysides-3.25-6-0-0-0",
+                    "geometry": "move-polysides-3.4-6-0-0-0",
                     "dimension": "2D",
                     "tags": [],
                     "plane": {
                       "origin": [
                         0,
                         0,
-                        5
+                        0
                       ],
                       "xDir": [
                         1,
@@ -1105,7 +1106,7 @@
             {
               "ap2Name": "Shape 1",
               "ap1ID": "720c42ca-5dee-462b-9dbc-4fd94e47ea2f",
-              "ap2ID": "id-465"
+              "ap2ID": "id-532"
             },
             {
               "ap2Name": "Shape 3",
@@ -1130,11 +1131,11 @@
             {
               "ap2Name": "Shape 2",
               "ap1ID": "id-456",
-              "ap2ID": "id-465"
+              "ap2ID": "id-532"
             },
             {
-              "ap2Name": "Shape 2",
-              "ap1ID": "id-465",
+              "ap2Name": "Shape 3",
+              "ap1ID": "id-532",
               "ap2ID": "a586ba17-6443-4954-ab13-0504ea946976"
             }
           ],

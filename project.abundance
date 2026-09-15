@@ -488,11 +488,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": 30
+              "ioValue": 30,
+              "currentEquation": "30"
             },
             {
               "name": "yDist",
-              "ioValue": -15
+              "ioValue": 15
             },
             {
               "name": "zDist",
